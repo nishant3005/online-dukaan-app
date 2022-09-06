@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.site-container {
+  min-height: 100vh;
+}
+
+.navbar-style {
+  background-color: #54bab9;
+}
+
+.brand-style {
+  color: #ffffff;
+}
+
+.link-style {
+  text-decoration: none;
+  color: #54bab9;
+}
+.link-style:hover {
+  color: #9ed2c6;
+}
+
+.edit-style {
+  color: #54bab9;
+}
+.edit-style:hover {
+  color: #000;
+}
+
+.icon-style i {
+  color: #54bab9;
+}
+
+main {
+  flex: 1; /* so that content inside main takes up the full space */
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product {
+  border: 1px solid #54bab9;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 250px;
+  padding: 0.5rem;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.rating span {
+  color: #9ed2c6;
+}
+
+.btn {
+  background-color: #9ed2c6;
+  color: #ffffff;
+}
+
+.large-img {
+  max-width: 75%;
+}
+
+.img-thumbnail {
+  height: 80px;
+}
+
+.small-container {
+  max-width: 600px;
+}
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #f7ecde;
+  color: #54bab9;
+}
